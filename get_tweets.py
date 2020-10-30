@@ -8,10 +8,10 @@ import csv
 import tweepy
 
 #Get your Twitter API credentials and enter them here
-consumer_key = "your_consumer_key"
-consumer_secret = "your_consumer_secret"
-access_key = "your_access_key"
-access_secret = "your_access_secret"
+consumer_key = "MiwdrZ2xuL56Ofn99WyKYQ8OB"
+consumer_secret = "LrhGVsO0ZVVvFMbU8dQHkdJZD8gceCFa1N1QAyLOiSpDXSAV6p"
+access_key = "90844212-zIS5bBvRwaMtwLpWAOvAXr5BkIjsT1IYLwu70eBop"
+access_secret = "ZSGPP4nKR1W3G6XRxlnZpdUFWsaMAzA2UwBnxr202NbdS"
 
 #method to get a user's last tweets
 def get_tweets(username):
@@ -22,7 +22,7 @@ def get_tweets(username):
 	api = tweepy.API(auth)
 
 	#set count to however many tweets you want
-	number_of_tweets = 100
+	number_of_tweets = 10
 
 	#get tweets
 	tweets_for_csv = []
